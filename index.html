@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#fdf8f3] p-5 md:p-10 font-sans text-[#593a19]">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
+    
+    <div class="bg-[#ede0d4] p-6 rounded-lg shadow-sm">
+      <h2 class="text-xs font-bold uppercase text-[#9c6644] mb-4">Items</h2>
+      
+      <div class="space-y-4">
+        <div class="flex justify-between border-b border-[#ddb892] pb-3">
+          <div class="flex gap-4"><b>1x</b> <div><p class="font-bold">Cappucino</p><p class="text-xs italic opacity-60">Light Foam</p></div></div>
+          <span class="font-bold">$6.00</span>
+        </div>
+        <div class="flex justify-between border-b border-[#ddb892] pb-3">
+          <div class="flex gap-4"><b>1x</b> <div><p class="font-bold">Cappucino</p><p class="text-xs italic opacity-60 text-wrap">Almond Milk, Double Shot</p></div></div>
+          <span class="font-bold">$7.90</span>
+        </div>
+      </div>
+
+      <div class="mt-8 space-y-1 text-right border-t border-[#ddb892] pt-4">
+        <div class="flex justify-between text-sm"><span>Subtotal:</span> <span>$19.27</span></div>
+        <div class="flex justify-between text-sm"><span>Tax:</span> <span>$0.96</span></div>
+        <div class="flex justify-between text-2xl font-black mt-2"><span>Total:</span> <span>$20.23</span></div>
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      
+      <div class="bg-[#ede0d4] p-6 rounded-lg shadow-sm">
+        <h2 class="text-xs font-bold uppercase text-[#9c6644] mb-4">Name</h2>
+        <div class="relative mt-2">
+          <label class="absolute -top-2 left-4 bg-[#ede0d4] px-1 text-[10px]">Name for order</label>
+          <input type="text" class="w-full border border-[#7f5539] rounded-full px-4 py-2 bg-transparent outline-none">
+        </div>
+      </div>
+
+      <div class="bg-[#ede0d4] p-6 rounded-lg shadow-sm">
+        <h2 class="text-xs font-bold uppercase text-[#9c6644] mb-4">Payment</h2>
+        <div class="space-y-5">
+          <div class="relative">
+            <label class="absolute -top-2 left-4 bg-[#ede0d4] px-1 text-[10px]">Card number</label>
+            <input type="text" class="w-full border border-[#7f5539] rounded-full px-4 py-2 bg-transparent outline-none">
+          </div>
+          <div class="relative w-1/2">
+            <label class="absolute -top-2 left-4 bg-[#ede0d4] px-1 text-[10px]">CCV number</label>
+            <input type="text" class="w-full border border-[#7f5539] rounded-full px-4 py-2 bg-transparent outline-none">
+          </div>
+        </div>
+      </div>
+
+      <button class="w-full bg-[#ddb892] py-4 rounded-full font-bold text-lg shadow-md hover:bg-[#cfa483] transition-all">
+        Place order
+      </button>
+    </div>
+
+  </div>
+
+</body>
+</html>`
